@@ -1,0 +1,5 @@
+name: 'Custom Rest'
+type: module
+description: 'Custom Rest API module for demo'
+core: 8.x
+package: 'Custom'

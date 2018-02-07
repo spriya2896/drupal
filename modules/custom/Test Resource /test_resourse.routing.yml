@@ -1,0 +1,17 @@
+test_resource.route:
+
+path: test/ws
+
+defaults:
+
+  _controller: 'Drupal\test_resource\Controller\TestResourceController::create'
+
+methods:  [POST]
+
+options:
+
+  _auth: [ 'basic_auth' ]
+
+requirements:
+
+    _user_is_logged_in: 'TRUE'

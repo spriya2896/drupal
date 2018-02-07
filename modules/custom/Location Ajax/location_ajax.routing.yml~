@@ -1,0 +1,7 @@
+dependentfield.form:
+  path: '/dependentfield'
+  defaults:
+    _form: '\Drupal\location_ajax\Form\StateCountry'
+    _title: 'Dependent Fields'
+  requirements:
+    _permission: 'access content'

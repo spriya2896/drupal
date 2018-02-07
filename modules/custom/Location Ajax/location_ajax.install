@@ -1,0 +1,27 @@
+<?php
+
+function location_ajax_schema() {
+  $schema['location'] = array(
+    'fields' => array(
+      'id' => array(
+        'type' => 'serial',
+       
+      ),
+      'country' => array(
+        'type' => 'varchar',
+        'length' => 40,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'state' => array(
+        'type' => 'varchar',
+        'length' => 40,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+    ),
+    'primary key' => array('id'),
+  );
+
+  return $schema;
+}
