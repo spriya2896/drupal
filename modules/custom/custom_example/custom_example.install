@@ -1,0 +1,21 @@
+<?php
+
+function custom_example_schema() {
+  $schema['email_example'] = array(
+    'fields' => array(
+      'id' => array(
+        'type' => 'serial',
+       
+      ),
+      'email' => array(
+        'type' => 'varchar',
+        'length' => 40,
+        'not null' => FALSE,
+        'default' => '',
+      ),
+    ),
+    'primary key' => array('id'),
+  );
+
+  return $schema;
+}

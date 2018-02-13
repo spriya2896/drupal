@@ -1,0 +1,14 @@
+{
+  "name": "drupal/first_drush_module",
+  "type": "drupal-module",
+  "description": "module created using console command",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/first_drush_module",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/first_drush_module",
+    "source": "http://cgit.drupalcode.org/first_drush_module"
+  },
+  "require": { }
+}

@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains first_drush_module.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function first_drush_module_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the first_drush_module module.
+    case 'help.page.first_drush_module':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('module created using console command') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function first_drush_module_theme() {
+  return [
+    'first_drush_module' => [
+      'render element' => 'children',
+    ],
+  ];
+}

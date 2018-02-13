@@ -1,5 +1,0 @@
-name: 'Web Rest'
-description: 'Custom module for web services'
-type: 'module'
-package: 'custom'
-core: '8.x'

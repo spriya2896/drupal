@@ -1,0 +1,5 @@
+entity.first_entity.add_form:
+  route_name: entity.first_entity.add_form
+  title: 'Add First entity'
+  appears_on:
+    - entity.first_entity.collection

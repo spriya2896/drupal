@@ -1,0 +1,27 @@
+# First entity routing definition
+first_entity.settings_tab:
+  route_name: first_entity.settings
+  title: 'Settings'
+  base_route: first_entity.settings
+
+entity.first_entity.canonical:
+  route_name: entity.first_entity.canonical
+  base_route: entity.first_entity.canonical
+  title: 'View'
+
+entity.first_entity.edit_form:
+  route_name: entity.first_entity.edit_form
+  base_route: entity.first_entity.canonical
+  title: 'Edit'
+
+entity.first_entity.version_history:
+  route_name: entity.first_entity.version_history
+  base_route: entity.first_entity.canonical
+  title: 'Revisions'
+
+entity.first_entity.delete_form:
+  route_name:  entity.first_entity.delete_form
+  base_route:  entity.first_entity.canonical
+  title: Delete
+  weight: 10
+

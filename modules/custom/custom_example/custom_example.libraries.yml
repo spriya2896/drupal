@@ -1,0 +1,4 @@
+firstlibraries:
+  version: "1.0.x"
+  js:
+    js/first.js: {}

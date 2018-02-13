@@ -19,17 +19,17 @@ class StateCountry extends FormBase {
    * @return array
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    $row[] = $this->get_data();
+    //$row[] = $this->get_data();
     $row1 = $this->get_location_country();
     
-    $header = array('ID', 'Country', 'City');
-    if (!empty($row)) {
-      $form['table'] = [
-        '#type' => 'table',
-        '#header' => $header,
-        '#rows' => $row,
-      ];
-    }
+//    $header = array('ID', 'Country', 'City');
+//    if (!empty($row)) {
+//      $form['table'] = [
+//        '#type' => 'table',
+//        '#header' => $header,
+//        '#rows' => $row,
+//      ];
+//    }
 
     $country = array('none_country' => 'None', 'india' => 'India', 'pakistan' => 'Pakistan', 'srilanka' => 'Srilanka', 'bangladesh' => 'Bangladesh');
     $default_state = array('Maharashtra', 'Gujrat');
@@ -127,17 +127,17 @@ class StateCountry extends FormBase {
    * 
    * @return type
    */
-  public function get_data() {
-    $db = \Drupal::database();
-    $data = $db->select('location', 'l')
-        ->fields('l')
-        ->execute()
-        ->fetchAssoc();
-    return $data;
-  }
+//  public function get_data() {
+//    $db = \Drupal::database();
+//    $data = $db->select('location', 'l')
+//        ->fields('l')
+//        ->execute()
+//        ->fetchAssoc();
+//    return $data;
+//  }
 
   /**
-   * 
+   * function fetches 
    * @return type
    */
   public function get_location_country() {

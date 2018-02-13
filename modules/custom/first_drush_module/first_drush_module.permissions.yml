@@ -1,0 +1,30 @@
+add first entity entities:
+  title: 'Create new First entity entities'
+
+administer first entity entities:
+  title: 'Administer First entity entities'
+  description: 'Allow to access the administration form to configure First entity entities.'
+  restrict access: true
+
+delete first entity entities:
+  title: 'Delete First entity entities'
+
+edit first entity entities:
+  title: 'Edit First entity entities'
+
+view published first entity entities:
+  title: 'View published First entity entities'
+
+view unpublished first entity entities:
+  title: 'View unpublished First entity entities'
+
+view all first entity revisions:
+  title: 'View all First entity revisions'
+
+revert all first entity revisions:
+  title: 'Revert all First entity revisions'
+  description: 'Role requires permission <em>view First entity revisions</em> and <em>edit rights</em> for first entity entities in question or <em>administer first entity entities</em>.'
+
+delete all first entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view First entity revisions</em> and <em>delete rights</em> for first entity entities in question or <em>administer first entity entities</em>.'

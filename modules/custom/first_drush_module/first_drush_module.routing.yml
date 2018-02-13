@@ -1,0 +1,8 @@
+
+first_drush_module.hello_controller_greet:
+  path: 'hello/greet/{world}'
+  defaults:
+    _controller: '\Drupal\first_drush_module\Controller\HelloController::greet'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'

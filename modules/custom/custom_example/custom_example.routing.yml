@@ -1,0 +1,7 @@
+custom_example.first_form:
+ path: '/first-form'
+ defaults:
+   _title: 'First form'
+   _form: '\Drupal\custom_example\Form\FirstForm'
+ requirements:
+   _permission: 'access content'

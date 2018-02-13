@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains resume.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function resume_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the resume module.
+    case 'help.page.resume':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Learning Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function resume_theme() {
+  return [
+    'resume' => [
+      'render element' => 'children',
+    ],
+  ];
+}

@@ -1,0 +1,5 @@
+name: 'Resume'
+type: module
+description: 'Learning Module'
+core: 8.x
+package: 'Custom'

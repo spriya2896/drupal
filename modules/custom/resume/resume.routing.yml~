@@ -1,0 +1,9 @@
+
+resume.resume_form:
+  path: '/resume'
+  defaults:
+    _form: '\Drupal\resume\Form\ResumeForm'
+    _title: 'ResumeForm'
+  requirements:
+    _access: 'TRUE'
+  

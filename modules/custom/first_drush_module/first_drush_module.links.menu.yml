@@ -1,0 +1,14 @@
+
+# First entity menu items definition
+entity.first_entity.collection:
+  title: 'First entity list'
+  route_name: entity.first_entity.collection
+  description: 'List First entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+first_entity.admin.structure.settings:
+  title: 'First entity settings'
+  description: 'Configure First entity entities'
+  route_name: first_entity.settings
+  parent: system.admin_structure
