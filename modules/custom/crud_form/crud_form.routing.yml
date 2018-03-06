@@ -1,0 +1,18 @@
+
+crud_form.first_form:
+  path: '/cust-form'
+  defaults:
+    _form: '\Drupal\crud_form\Form\FirstForm'
+    _title: 'FirstForm'
+  requirements:
+    _access: 'TRUE'
+
+crud_form.display_table:
+  path: '/table'
+  defaults:
+    _controller: '\Drupal\crud_form\Controller\Displaytable::display'
+    _title: 'display'
+  requirements:
+    _permission: 'access content'
+  
+  

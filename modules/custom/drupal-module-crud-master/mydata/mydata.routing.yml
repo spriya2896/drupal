@@ -1,12 +1,3 @@
-
-mydata.mydata_controller_display:
-  path: '/mydata'
-  defaults:
-    _controller: '\Drupal\mydata\Controller\MydataController::display'
-    _title: 'display'
-  requirements:
-    _permission: 'access content'
-
 mydata.mydata_form:
   path: '/mydata/form/mydata'
   defaults:
@@ -30,7 +21,7 @@ mydata.delete_form:
   path: '/mydata/form/delete/{cid}'
   defaults:
     _form: '\Drupal\mydata\Form\DeleteForm'
-    _title: 'DeleteForm'
+    _title: 'Delete Form'
   requirements:
     _access: 'TRUE'
   
